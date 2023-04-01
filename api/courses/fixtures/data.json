@@ -1,0 +1,76 @@
+[
+    {
+        "model": "courses.course",
+        "pk": "81178bbc-a9f6-4245-8e76-90126dc129a9",
+        "fields": {
+          "name": "Software development"
+        }
+    },
+    {
+        "model": "courses.course",
+        "pk": "81178bbc-a9f6-4245-8e76-90126dc12910",
+        "fields": {
+          "name": "software architecture"
+        }
+    },
+    {
+        "model": "courses.student",
+        "pk": "81178bbc-a9f6-4245-8e76-90126dc12911",
+        "fields": {
+            "name": "Oscar"
+        }
+    },
+    {
+        "model": "courses.student",
+        "pk": "81178bbc-a9f6-4245-8e76-90126dc12912",
+        "fields": {
+            "name": "Luis"
+        }
+    },
+    {
+        "model": "courses.parent",
+        "pk": "81178bbc-a9f6-4245-8e76-90126dc12913",
+        "fields": {
+            "name": "Parent 1"
+        }
+    },
+    {
+        "model": "courses.parent",
+        "pk": "81178bbc-a9f6-4245-8e76-90126dc12914",
+        "fields": {
+            "name": "Parent 2"
+        }
+    },
+    {
+        "model": "courses.studentparent",
+        "pk": "81178bbc-a9f6-4245-8e76-90126dc12916",
+        "fields": {
+            "student_id": "81178bbc-a9f6-4245-8e76-90126dc12911",
+            "parent_id": "81178bbc-a9f6-4245-8e76-90126dc12913"
+        }
+    },
+    {
+        "model": "courses.studentparent",
+        "pk": "81178bbc-a9f6-4245-8e76-90126dc12917",
+        "fields": {
+            "student_id": "81178bbc-a9f6-4245-8e76-90126dc12912",
+            "parent_id": "81178bbc-a9f6-4245-8e76-90126dc12914"
+        }
+    },
+    {
+        "model": "courses.enrollment",
+        "pk": "81178bbc-a9f6-4245-8e76-90126dc12918",
+        "fields": {
+            "student_id": "81178bbc-a9f6-4245-8e76-90126dc12911",
+            "course_id": "81178bbc-a9f6-4245-8e76-90126dc129a9"
+        }
+    },
+    {
+        "model": "courses.enrollment",
+        "pk": "81178bbc-a9f6-4245-8e76-90126dc12919",
+        "fields": {
+            "student_id": "81178bbc-a9f6-4245-8e76-90126dc12912",
+            "course_id": "81178bbc-a9f6-4245-8e76-90126dc12910"
+        }
+    }
+]
