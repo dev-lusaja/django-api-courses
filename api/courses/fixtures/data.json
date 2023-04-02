@@ -3,14 +3,55 @@
         "model": "courses.course",
         "pk": "81178bbc-a9f6-4245-8e76-90126dc129a9",
         "fields": {
-          "name": "Software development"
+            "name": "Software development",
+            "description": "Introduce a tu hij@ a la programación en bloques mientras diseña y programa su primer videojuego.",
+            "period": 2,
+            "classes": 9,
+            "image": "https://ctc-web-statics-prod.s3.amazonaws.com/multimedia/images/courses/684ab6afa7c44bc297f69f064f31ee8b.webp"
         }
     },
     {
         "model": "courses.course",
         "pk": "81178bbc-a9f6-4245-8e76-90126dc12910",
         "fields": {
-          "name": "software architecture"
+            "name": "Software architecture",
+            "description": "Introduce a tu hij@ a la programación en bloques mientras diseña y programa su primer videojuego.",
+            "period": 2,
+            "classes": 9,
+            "image": "https://ctc-web-statics-prod.s3.amazonaws.com/multimedia/images/courses/f8958c8067824f47a169bf2c6ee154c4.webp"
+        }
+    },
+    {
+        "model": "courses.course",
+        "pk": "81178bbc-a9f6-4245-8e76-90126dc12911",
+        "fields": {
+            "name": "Curso Construye con Roblox",
+            "description": "Introduce a tu hij@ a la programación en bloques mientras diseña y programa su primer videojuego.",
+            "period": 2,
+            "classes": 8,
+            "image": "https://ctc-web-statics-prod.s3.amazonaws.com/multimedia/images/courses/fe2c04cf8332416385fa5f79c8181611.webp"
+        }
+    },
+    {
+        "model": "courses.course",
+        "pk": "81178bbc-a9f6-4245-8e76-90126dc12912",
+        "fields": {
+            "name": "Minecraft for kids",
+            "description": "Introduce a tu hij@ a la programación en bloques mientras diseña y programa su primer videojuego.",
+            "period": 3,
+            "classes": 12,
+            "image": "https://ctc-web-statics-prod.s3.amazonaws.com/multimedia/images/courses/2e250ca0d0374ebba158ef4145d3fa0b.webp"
+        }
+    },
+    {
+        "model": "courses.course",
+        "pk": "81178bbc-a9f6-4245-8e76-90126dc12913",
+        "fields": {
+            "name": "Introducción a la edición",
+            "description": "Introduce a tu hij@ a la programación en bloques mientras diseña y programa su primer videojuego.",
+            "period": 2,
+            "classes": 8,
+            "image": "https://ctc-web-statics-prod.s3.amazonaws.com/multimedia/images/courses/ba8340b12a124d7d8767f1074e9cb0ae.webp"
         }
     },
     {
@@ -61,16 +102,16 @@
         "model": "courses.enrollment",
         "pk": "81178bbc-a9f6-4245-8e76-90126dc12918",
         "fields": {
-            "student_id": "81178bbc-a9f6-4245-8e76-90126dc12911",
-            "course_id": "81178bbc-a9f6-4245-8e76-90126dc129a9"
+            "student": "81178bbc-a9f6-4245-8e76-90126dc12911",
+            "course": "81178bbc-a9f6-4245-8e76-90126dc129a9"
         }
     },
     {
         "model": "courses.enrollment",
         "pk": "81178bbc-a9f6-4245-8e76-90126dc12919",
         "fields": {
-            "student_id": "81178bbc-a9f6-4245-8e76-90126dc12912",
-            "course_id": "81178bbc-a9f6-4245-8e76-90126dc12910"
+            "student": "81178bbc-a9f6-4245-8e76-90126dc12912",
+            "course": "81178bbc-a9f6-4245-8e76-90126dc12910"
         }
     }
 ]
