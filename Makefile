@@ -26,6 +26,3 @@ create-courses:
 
 data:
 	docker run --rm -it -v ${PWD}/api:/code ${IMAGE} python3 manage.py loaddata data.json
-
-test:
-	@docker run --rm -it --name ${CONTAINER}-test -v ${PWD}/app:/code/app ${IMAGE} python3 /code/app/__init__.py
